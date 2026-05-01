@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Ashmit Arya's computer science portfolio homepage.">
+  <meta name="keywords" content="portfolio, computer science, software, projects, Ashmit Arya">
   <title>Ashmit Arya | CS Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -21,8 +22,8 @@
       <a href="index.html">Home</a>
       <a href="about.html">About Me</a>
       <a href="projects.html">Projects</a>
-      <a href="index.html#experience">Experience</a>
-      <a href="index.html#contact">Contact</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
@@ -69,28 +70,19 @@
       <div class="card-grid">
         <article class="card">
           <h4>Campus VR Tour Project</h4>
-          <p>
-            Research lead for a VR-based campus tour project focused on the Fulton Schools of Engineering.
-            Conducted UX studies and worked with Unity-based 3D features.
-          </p>
+          <p>Research lead for a VR-based campus tour project using Unity and UX research.</p>
           <span class="tags">Unity | UX | 3D</span>
         </article>
 
         <article class="card">
           <h4>Computer Networks Support</h4>
-          <p>
-            Supported networking course labs, socket programming, and CloudLab experiments.
-            Helped students with Linux-based exercises and exam review.
-          </p>
+          <p>Supported networking labs and helped students with Linux and socket programming.</p>
           <span class="tags">Linux | Networking | Sockets</span>
         </article>
 
         <article class="card">
           <h4>Data Transformation Automation</h4>
-          <p>
-            Built Python scripts to convert unstructured data into structured formats,
-            improving data organization and processing efficiency.
-          </p>
+          <p>Built Python scripts to convert unstructured data into structured formats.</p>
           <span class="tags">Python | Automation | Data</span>
         </article>
       </div>
@@ -99,114 +91,80 @@
     <section id="experience" class="info-section">
       <div class="section-title">
         <h3>Experience Highlights</h3>
-        <p>A few roles that shaped my technical and leadership background.</p>
       </div>
-
       <div class="experience-grid">
         <article class="mini-card">
-          <h4>Undergraduate Teaching Assistant — CSE 434</h4>
-          <p class="date">August 2025 – December 2025</p>
+          <h4>Teaching Assistant</h4>
           <ul>
-            <li>Supported a fast-paced computer networks course</li>
-            <li>Helped students with Linux and socket programming</li>
+            <li>Supported networking course</li>
+            <li>Helped students with labs</li>
           </ul>
         </article>
 
         <article class="mini-card">
-          <h4>Student Admission Relations Team — Student Worker II</h4>
-          <p class="date">January 2024 – December 2024</p>
+          <h4>Student Worker</h4>
           <ul>
-            <li>Led campus tours for incoming students and families</li>
-            <li>Supported admissions tasks and student outreach</li>
+            <li>Led campus tours</li>
+            <li>Assisted admissions team</li>
           </ul>
         </article>
 
         <article class="mini-card">
-          <h4>Data Transformation Intern — Microsoft Corp</h4>
-          <p class="date">September 2020 – February 2021</p>
+          <h4>Intern</h4>
           <ul>
-            <li>Automated data organization using Python scripts</li>
-            <li>Converted unstructured datasets into usable formats</li>
+            <li>Worked on data transformation</li>
+            <li>Built automation scripts</li>
           </ul>
         </article>
       </div>
+    </section>
+
+    <section class="info-section">
+      <div class="section-title">
+        <h3>Portfolio Demo Video</h3>
+        <p>This video provides a quick overview of programming and development work related to my projects.</p>
+      </div>
+
+      <video controls width="400">
+        <source src="demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </section>
 
     <section class="info-section skills-contact">
       <div id="skills">
-        <div class="section-title">
-          <h3>Technical Skills</h3>
-          <p>A quick summary of tools and languages I want to highlight.</p>
-        </div>
-
+        <h3>Technical Skills</h3>
         <table class="skills-table">
-          <thead>
-            <tr>
-              <th>Language / Tool</th>
-              <th>Proficiency</th>
-              <th>Example Use</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Python</td>
-              <td>Advanced</td>
-              <td>Data automation scripts</td>
-            </tr>
-            <tr>
-              <td>Java</td>
-              <td>Intermediate</td>
-              <td>Coursework projects</td>
-            </tr>
-            <tr>
-              <td>HTML / CSS</td>
-              <td>Intermediate</td>
-              <td>Portfolio website design</td>
-            </tr>
-          </tbody>
+          <tr><th>Language</th><th>Level</th><th>Use</th></tr>
+          <tr><td>Python</td><td>Advanced</td><td>Automation</td></tr>
+          <tr><td>Java</td><td>Intermediate</td><td>Projects</td></tr>
+          <tr><td>HTML/CSS</td><td>Intermediate</td><td>Web Design</td></tr>
         </table>
       </div>
 
-      <div id="contact" class="contact-box">
-        <div class="section-title">
-          <h3>Contact Me</h3>
-          <p>I am open to internships, collaborations, and opportunities.</p>
-        </div>
-
-        <p>
-          Email: aarya8@asu.edu<br>
-          GitHub: <a href="https://github.com/Aarya80" target="_blank" rel="noopener noreferrer">github.com/Aarya80</a>
-        </p>
-
-        <form class="contact-form" action="#" method="post">
-          <label for="name">Full Name *</label>
-          <input id="name" name="name" type="text">
-
-          <label for="email">Email Address *</label>
-          <input id="email" name="email" type="email">
-
-          <label for="subject">Subject *</label>
-          <input id="subject" name="subject" type="text">
-
-          <label for="message">Message *</label>
-          <textarea id="message" name="message" rows="4"></textarea>
-
-          <label for="company">Company/Organization (optional)</label>
-          <input id="company" name="company" type="text">
-
-          <button type="submit" class="button primary submit-btn">Submit</button>
+      <div id="contact">
+        <h3>Contact Me</h3>
+        <form action="#" method="post">
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <input type="text" placeholder="Subject">
+          <textarea placeholder="Message"></textarea>
+          <button type="submit">Submit</button>
         </form>
       </div>
     </section>
+
+    <section class="info-section">
+      <p>
+        Learn more about web development at 
+        <a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a>.
+      </p>
+    </section>
+
   </main>
 
   <footer class="site-footer">
-    <p>© 2026 Ashmit Arya | Open to internships and software opportunities</p>
-    <p>
-      <a href="https://github.com/Aarya80" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <span>•</span>
-      <a href="https://www.linkedin.com/in/ashmit-arya" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-    </p>
+    <p>© 2026 Ashmit Arya</p>
   </footer>
 </body>
 </html>
