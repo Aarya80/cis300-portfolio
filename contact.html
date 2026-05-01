@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contact Ashmit Arya">
-  <meta name="keywords" content="contact, portfolio, computer science">
+  <meta name="description" content="Contact Ashmit Arya for opportunities and collaboration.">
+  <meta name="keywords" content="contact, portfolio, computer science, internships, Ashmit Arya">
   <title>Contact | Ashmit Arya</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -19,42 +19,87 @@
     </div>
   </div>
 
-  <nav class="site-nav">
+  <nav class="site-nav" aria-label="Main navigation">
     <a href="index.html">Home</a>
     <a href="about.html">About Me</a>
     <a href="projects.html">Projects</a>
+    <a href="index.html#experience">Experience</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
 
 <main class="page">
+
+  <!-- Intro Section -->
   <section class="info-section">
-    <h3>Contact Me</h3>
+    <div class="section-title">
+      <h3>Contact Me</h3>
+      <p>I’d love to connect with you.</p>
+    </div>
 
-    <form action="#" method="post">
-      <label>Full Name</label>
-      <input type="text" name="name">
-
-      <label>Email</label>
-      <input type="email" name="email">
-
-      <label>Subject</label>
-      <input type="text" name="subject">
-
-      <label>Message</label>
-      <textarea name="message"></textarea>
-
-      <button type="submit">Submit</button>
-    </form>
-
-    <p>Email me directly: 
-      <a href="mailto:aarya8@asu.edu">aarya8@asu.edu</a>
+    <p>
+      Whether you have an internship opportunity, a project idea, or just want to connect, feel free to reach out.
+      I am always open to learning, collaboration, and new experiences in the field of computer science.
     </p>
   </section>
+
+  <!-- Contact Form -->
+  <section class="info-section">
+    <div class="section-title">
+      <h3>Send a Message</h3>
+      <p>Please fill out the form below and I will get back to you as soon as possible.</p>
+    </div>
+
+    <form class="contact-form" action="#" method="post">
+      <label for="name">Full Name *</label>
+      <input id="name" name="name" type="text" placeholder="Enter your full name" required>
+
+      <label for="email">Email Address *</label>
+      <input id="email" name="email" type="email" placeholder="Enter your email address" required>
+
+      <label for="subject">Subject *</label>
+      <input id="subject" name="subject" type="text" placeholder="Enter subject" required>
+
+      <label for="message">Message *</label>
+      <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+
+      <label for="company">Company/Organization (optional)</label>
+      <input id="company" name="company" type="text" placeholder="Enter your company or organization">
+
+      <button type="submit" class="button primary submit-btn">Submit</button>
+    </form>
+  </section>
+
+  <!-- Contact Info -->
+  <section class="info-section">
+    <div class="section-title">
+      <h3>Other Ways to Reach Me</h3>
+    </div>
+
+    <p>
+      📧 Email: <a href="mailto:aarya8@asu.edu">aarya8@asu.edu</a><br>
+      💻 GitHub: <a href="https://github.com/Aarya80" target="_blank">github.com/Aarya80</a><br>
+      🔗 LinkedIn: <a href="https://www.linkedin.com/in/ashmit-arya" target="_blank">linkedin.com/in/ashmit-arya</a>
+    </p>
+  </section>
+
+  <!-- External Link (required) -->
+  <section class="info-section">
+    <p>
+      Learn more about building professional portfolios at 
+      <a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a>.
+    </p>
+  </section>
+
 </main>
 
 <footer class="site-footer">
-  <p>© 2026 Ashmit Arya</p>
+  <p>© 2026 Ashmit Arya | Open to internships and software opportunities</p>
+  <p>
+    <a href="https://github.com/Aarya80" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <span>•</span>
+    <a href="https://www.linkedin.com/in/ashmit-arya" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  </p>
 </footer>
 
 </body>
